@@ -52,6 +52,38 @@ url = "https://github.com/aristocratos/btop/releases/download/v1.4.6/btop-x86_64
 checksum = "sha256:9bf7ed170423bb3709a8020767bd2ca529c5632af478f229dce7cdfd32b25691"
 url = "https://github.com/aristocratos/btop/releases/download/v1.4.6/btop-x86_64-unknown-linux-musl.tbz"
 
+[[tools.codex]]
+version = "0.143.0"
+backend = "aqua:openai/codex"
+
+[tools.codex."platforms.linux-arm64"]
+checksum = "sha256:d7f976747ea10e2bd2c8d2830d31a7d1d9fd5a69fd0aa3713692eec69b8c805e"
+url = "https://github.com/openai/codex/releases/download/rust-v0.143.0/codex-aarch64-unknown-linux-musl.zst"
+
+[tools.codex."platforms.linux-arm64-musl"]
+checksum = "sha256:d7f976747ea10e2bd2c8d2830d31a7d1d9fd5a69fd0aa3713692eec69b8c805e"
+url = "https://github.com/openai/codex/releases/download/rust-v0.143.0/codex-aarch64-unknown-linux-musl.zst"
+
+[tools.codex."platforms.linux-x64"]
+checksum = "sha256:883e417ca716bf8514f0751917d33b8682a7a423fc08c1e76e90ba71fe8d4f6b"
+url = "https://github.com/openai/codex/releases/download/rust-v0.143.0/codex-x86_64-unknown-linux-musl.zst"
+
+[tools.codex."platforms.linux-x64-musl"]
+checksum = "sha256:883e417ca716bf8514f0751917d33b8682a7a423fc08c1e76e90ba71fe8d4f6b"
+url = "https://github.com/openai/codex/releases/download/rust-v0.143.0/codex-x86_64-unknown-linux-musl.zst"
+
+[tools.codex."platforms.macos-arm64"]
+checksum = "sha256:7a1516c96538cba9138a21ae6f2529e99e990a88d91673cfd6209d83a95cb3a0"
+url = "https://github.com/openai/codex/releases/download/rust-v0.143.0/codex-aarch64-apple-darwin.zst"
+
+[tools.codex."platforms.macos-x64"]
+checksum = "sha256:eb3985e02631ef6d28ad67f75e9bfaa687b2c6fcf73947e59a66ed58e462ee8f"
+url = "https://github.com/openai/codex/releases/download/rust-v0.143.0/codex-x86_64-apple-darwin.zst"
+
+[tools.codex."platforms.windows-x64"]
+checksum = "sha256:c5bd928642b5aa31cd3ca1203d6a4aecdfd39c6e5709a00e2014ab42160ba6d5"
+url = "https://github.com/openai/codex/releases/download/rust-v0.143.0/codex-x86_64-pc-windows-msvc.exe.zst"
+
 [[tools.difftastic]]
 version = "0.67.0"
 backend = "aqua:Wilfred/difftastic"
