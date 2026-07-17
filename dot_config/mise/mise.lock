@@ -510,36 +510,36 @@ url = "https://github.com/lsd-rs/lsd/releases/download/v1.2.0/lsd-v1.2.0-x86_64-
 url_api = "https://api.github.com/repos/lsd-rs/lsd/releases/assets/303320206"
 
 [[tools.node]]
-version = "26.2.0"
+version = "24.18.0"
 backend = "core:node"
 
 [tools.node."platforms.linux-arm64"]
-checksum = "sha256:bf52461d25017479cdc549642c4e7a2303ac5c5395d7c3d026d5d8b3fa283c05"
-url = "https://nodejs.org/dist/v26.2.0/node-v26.2.0-linux-arm64.tar.gz"
+checksum = "sha256:6b4484c2190274175df9aa8f28e2d758a819cb1c1fe6ab481e2f95b463ab8508"
+url = "https://nodejs.org/dist/v24.18.0/node-v24.18.0-linux-arm64.tar.gz"
 
 [tools.node."platforms.linux-arm64-musl"]
-checksum = "sha256:4593d822012fe3238814721909408c66f2a82955e0141457643a7a4c84e132fd"
-url = "https://unofficial-builds.nodejs.org/download/release/v26.2.0/node-v26.2.0-linux-arm64-musl.tar.gz"
+checksum = "sha256:b1c6c2dc31b46dd8fb2322f4fe75b07e775c5120bc37251deeea28f529d4567b"
+url = "https://unofficial-builds.nodejs.org/download/release/v24.18.0/node-v24.18.0-linux-arm64-musl.tar.gz"
 
 [tools.node."platforms.linux-x64"]
-checksum = "sha256:8e5b4b969bb2414aca2ff84d2b99608511aedca32bf8a8427e6187dbdd703bbe"
-url = "https://nodejs.org/dist/v26.2.0/node-v26.2.0-linux-x64.tar.gz"
+checksum = "sha256:783130984963db7ba9cbd01089eaf2c2efb055c7c1693c943174b967b3050cb8"
+url = "https://nodejs.org/dist/v24.18.0/node-v24.18.0-linux-x64.tar.gz"
 
 [tools.node."platforms.linux-x64-musl"]
-checksum = "sha256:9efc99332e1cf70eeb85618398467c9d339bc208be65115380c611dda4c28407"
-url = "https://unofficial-builds.nodejs.org/download/release/v26.2.0/node-v26.2.0-linux-x64-musl.tar.gz"
+checksum = "sha256:ea58409911e141ec6b19d9178efa2d9185a13295005b1cbf5521b3157eed1d95"
+url = "https://unofficial-builds.nodejs.org/download/release/v24.18.0/node-v24.18.0-linux-x64-musl.tar.gz"
 
 [tools.node."platforms.macos-arm64"]
-checksum = "sha256:2d8575b6a749c0bc66cc6ecd22a952f7d9bbf3b0ea76fcb0ed3ce858018afff7"
-url = "https://nodejs.org/dist/v26.2.0/node-v26.2.0-darwin-arm64.tar.gz"
+checksum = "sha256:e1a97e14c99c803e96c7339403282ea05a499c32f8d83defe9ef5ec66f979ed1"
+url = "https://nodejs.org/dist/v24.18.0/node-v24.18.0-darwin-arm64.tar.gz"
 
 [tools.node."platforms.macos-x64"]
-checksum = "sha256:26a5480d0dd952be86beae83e6636dacd7a3ffd17ef51d0b26bc9b260f2b42e9"
-url = "https://nodejs.org/dist/v26.2.0/node-v26.2.0-darwin-x64.tar.gz"
+checksum = "sha256:dfd0dbd3e721503434df7b7205e719f61b3a3a31b2bcf9729b8b91fea240f080"
+url = "https://nodejs.org/dist/v24.18.0/node-v24.18.0-darwin-x64.tar.gz"
 
 [tools.node."platforms.windows-x64"]
-checksum = "sha256:371071a4f7e2c8a5dd280730049c685911feecc59f50ebc488d675dc1087c69c"
-url = "https://nodejs.org/dist/v26.2.0/node-v26.2.0-win-x64.zip"
+checksum = "sha256:0ae68406b42d7725661da979b1403ec9926da205c6770827f33aac9d8f26e821"
+url = "https://nodejs.org/dist/v24.18.0/node-v24.18.0-win-x64.zip"
 
 [[tools.ripgrep]]
 version = "15.2.0"
